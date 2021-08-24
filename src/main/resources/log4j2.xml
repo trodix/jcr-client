@@ -30,7 +30,7 @@
             <AppenderRef ref="FileAppender" level="warn" />
         </Logger>
 
-        <!-- <Logger name="org.springframework" level="trace" /> -->
+        <Logger name="com.trodix.jcr.client.services" level="debug" />
 
     </Loggers>
 </Configuration>
